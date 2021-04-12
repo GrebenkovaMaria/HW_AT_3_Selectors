@@ -16,7 +16,7 @@ public class OrderTest {
 
     @BeforeAll
         static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Windows\\Temp\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "\\driver\\chromedriver.exe");
     }
 
     @BeforeEach
@@ -68,7 +68,7 @@ public class OrderTest {
     }
 
     @Test
-    void shouldTestWarnIfIncorrextName() {
+    void shouldTestWarnIfIncorrectName() {
         driver.get("http://localhost:9999");
         List<WebElement> elements = driver.findElements(By.className("input__control"));
         elements.get(0).sendKeys("Mary");
