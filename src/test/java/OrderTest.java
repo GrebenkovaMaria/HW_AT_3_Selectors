@@ -19,7 +19,7 @@ public class OrderTest {
 
     @BeforeAll
         static void setUpAll() {
-        //WebDriverManager.chromedriver().config().setOs("Linux");
+        WebDriverManager.chromedriver().config().setOs("Win");
         WebDriverManager.chromedriver().setup();
         // System.setProperty("webdriver.chrome.driver", "HW_AT_3_Selectors/driver/chromedriver.exe");
     }
