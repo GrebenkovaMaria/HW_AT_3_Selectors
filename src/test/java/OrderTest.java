@@ -20,7 +20,8 @@ public class OrderTest {
     @BeforeAll
         static void setUpAll() {
         WebDriverManager.chromedriver().setup();
-        //System.setProperty("webdriver.chrome.driver", "HW_AT_3_Selectors/driver/chromedriver.exe");
+        WebDriverManager.chromedriver().config().setOs("ubuntu");
+        System.setProperty("webdriver.chrome.driver", "HW_AT_3_Selectors/driver/chromedriver.exe");
     }
 
     @BeforeEach
