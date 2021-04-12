@@ -103,6 +103,7 @@ public class OrderTest {
         driver.findElement(By.className("button")).click();
         String text = driver.findElement(By.className("checkbox__text")).getCssValue("color");
         assertEquals("rgba(255, 92, 92, 1)", text);
+        throw new UnsupportedOperationException();
     }
 
 
