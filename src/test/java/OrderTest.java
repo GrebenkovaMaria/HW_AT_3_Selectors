@@ -16,7 +16,7 @@ public class OrderTest {
 
     @BeforeAll
         static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "/driver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "HW_AT_3_Selectors/driver/chromedriver.exe");
     }
 
     @BeforeEach
