@@ -1,4 +1,4 @@
-image: Visual Studio 2015
+image: Ubuntu
 
 stack: jdk 11
 
@@ -15,4 +15,4 @@ install:
 build_script:
   - chmod +x gradlew
   - ./gradlew test --info
-  - ./gradlew -t build
+
