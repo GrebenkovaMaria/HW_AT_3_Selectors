@@ -1,4 +1,4 @@
-image: Windows
+image: Visual Studio 2015
 
 stack: jdk 11
 
