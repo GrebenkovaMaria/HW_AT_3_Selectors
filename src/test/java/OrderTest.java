@@ -82,7 +82,7 @@ public class OrderTest {
     void shouldTestWarnIfIncorrectName() {
         driver.get("http://localhost:9999");
         List<WebElement> elements = driver.findElements(By.className("input__control"));
-        elements.get(0).sendKeys("Mary");
+        elements.get(0).sendKeys("Maria");
         elements.get(1).sendKeys("+79876543210");
         driver.findElement(By.className("checkbox__box")).click();
         driver.findElement(By.className("button")).click();
