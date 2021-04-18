@@ -10,9 +10,9 @@ build: off
 
 install:
   - java -jar ./artifacts/app-order.jar &
-
-build_script:
   - chmod +x webdriver/chromedriver.exe
   - chmod +x gradlew
-  - ./gradlew test --info
+
+build_script:
+    - ./gradlew test --info
 
