@@ -18,7 +18,7 @@ public class OrderTest {
 
     @BeforeAll
         static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "webdriver//chromedriver");
+        System.setProperty("webdriver.chrome.driver", "webdriver//lin89chromedriver");
         //WebDriverManager.chromedriver().setup();
     }
 
