@@ -33,7 +33,7 @@ public class OrderTest {
         options.addArguments("--headless");
         options.addArguments("--disable-extensions");
         options.addArguments("--no-sandbox");
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
     }
 
     @AfterEach
